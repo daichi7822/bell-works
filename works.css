@@ -90,9 +90,25 @@ img{
         width: 10%;
         height: auto;
         position: fixed;
-        top: 26px;
+        top: 32px;
         left: 20px;
         z-index: 10;
     }    
     
+}
+
+@media screen and (max-width:760px) {
+
+    .site-title-works{
+        padding-bottom:40px;
+    }
+
+    .content-title{
+        width: 91%;
+    }
+    
+    p{
+        width: 91%;
+    } 
+
 }
